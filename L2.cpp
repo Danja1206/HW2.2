@@ -13,7 +13,7 @@ void Task1()
 	int* x_ptr = &x, * y_ptr = &y;
 
 	cout << x << " " << *x_ptr << " " << y << " " << *y_ptr << endl;
-	//Swap<int>(x_ptr, y_ptr);
+	Swap<int>(x_ptr, y_ptr);
 	cout << x << " " << *x_ptr << " " << y << " " << *y_ptr << endl;
 
 	string a_s = "abc", b_s = "def";
